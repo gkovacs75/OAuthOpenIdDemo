@@ -2,8 +2,8 @@
 
 ### This is a demonstration of taking a .NET 4.7 MVC application and adding the following:
 
-- Adding dependency injection using Owin
-- Creating the Startup.cs file
+- Dependency Injection using Owin
+- Startup.cs file
 - Adding IAppBuilder and IServiceCollection
 - Oauth/OpenID Connect
 
