@@ -22,16 +22,14 @@ namespace Web.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Callback()
         {
+            string code = Request.QueryString["code"];
+            string state = Request.QueryString["state"];
+
             ViewBag.Message = $"Your {_somethingToInject.MyProperty} application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Code = code;
+            ViewBag.State = state;
 
             return View();
         }
