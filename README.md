@@ -101,5 +101,5 @@ At this point you will now be able to inject into your contructors as long as yo
 
 ### 2. Register with GitHub
 
- - Go to https://github.com/settings/developers to setup a new OAuth app.
- - See [this](https://www.oauth.com/)for details.
+ - Go to [GitHub](https://github.com/settings/developers) to setup a new OAuth app.
+ - See [this](https://www.oauth.com/) for details.
