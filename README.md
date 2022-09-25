@@ -16,16 +16,16 @@
 7. Add the following 2 classes:
 
 
-    public static class ServiceProviderExtensions
-    {
-        public static IServiceCollection AddControllersAsServices(this IServiceCollection services, IEnumerable<Type> controllerTypes)
+        public static class ServiceProviderExtensions
         {
-            foreach (var type in controllerTypes)
+            public static IServiceCollection AddControllersAsServices(this IServiceCollection services, IEnumerable<Type> controllerTypes)
             {
-                services.AddTransient(type);
-            }
+                foreach (var type in controllerTypes)
+                {
+                    services.AddTransient(type);
+                }
 
-            return services;
+                return services;
+            }
         }
-    }
 
