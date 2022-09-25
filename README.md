@@ -1,4 +1,4 @@
-# OAuth/OpenId Connect Demo
+# OAuth/OpenId Connect Demo - This is a WIP
 
 ### 1. Update a .NET 4.7 MVC Application to use Dependency Injection:
 
