@@ -1,11 +1,11 @@
 # OAuth/OpenId Connect Demo
 
-### This is a demonstration of taking a .NET 4.7 MVC application and adding the following:
+### 1. Update a .NET 4.7 MVC Application to use Dependency Injection:
 
 - Dependency Injection using Owin
 - Startup.cs file
 - Adding IAppBuilder and IServiceCollection
-- Oauth/OpenID Connect
+- See [this](https://scottdorman.blog/2016/03/17/integrating-asp-net-core-dependency-injection-in-mvc-4/) for details.
 
 1. Create a .NET Framework app targeting 4.7
 2. Add a reference to Microsoft.Extensions.DependencyInjection
@@ -98,3 +98,8 @@ At this point you will now be able to inject into your contructors as long as yo
         ...
         public HomeController(ISomethingToInject somethingToInject)
 
+
+### 2. Register with GitHub
+
+ - Go to https://github.com/settings/developers to setup a new OAuth app.
+ - See [this](https://www.oauth.com/)for details.
