@@ -90,3 +90,11 @@ The Startup class will look like this:
                 }
             }
         }
+
+
+At this point you will now be able to inject into your contructors as long as you register the interface and concrete implementation:
+                
+        services.AddTransient<ISomethingToInject, SomethingToInject>();
+        ...
+        public HomeController(ISomethingToInject somethingToInject)
+
